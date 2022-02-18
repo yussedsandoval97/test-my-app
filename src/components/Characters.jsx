@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Character from "./Character"
 
+/**
+ Methos characters
+ */
+
 function Characters() {
     const [characters, setCharacters] = useState([])
     const [pagesCharacter, setPagesCharacter] = useState(1);
