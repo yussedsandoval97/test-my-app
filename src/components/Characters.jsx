@@ -3,7 +3,7 @@ import axios from "axios";
 import Character from "./Character"
 
 /**
- Methos characters
+ Method characters
  */
 
 function Characters() {
