@@ -1,27 +1,24 @@
-import logo from '../logo.svg';
 import '../App.css';
-import Characters from './Characters'
+import Accountant from './Accountant';
+import Event from './Event';
+import Form from './Form';
+import List from './List';
+import Paragraph from './Paragraph';
+import Variable from './Variable';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <div>
-        <Characters />
-      </div>
+    <div className="container ,t-5">
+      {
+        /*<Paragraph/>
+              <Variable/>
+              <Event/>
+              <Accountant/>
+              <List/>*/
+      }
+      <Form />
+
     </div>
   );
 }
